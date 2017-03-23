@@ -1,0 +1,15 @@
+id = '999999999:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX' #Important! Get this from Botfather
+updates = False #False is more safe, as the update mechanism pulls directly from github
+beta = False #GODDAMMIT, has to stay false!
+botid = "@Deadc0deBot" #Change this or help will never work
+
+#Files and URLs. Just Comment to disable function
+
+helpfile = "help.txt"
+jokefile = "jokes.txt"
+zitatfile = "zitate.txt"
+tutfile = "tutorial.txt"
+brucefile = "brucelee.txt"
+sourceurl = "https://github.com/De4dc0de/deadc0debot"
+weburl = "http://deadc0de.bplaced.net"
+gidfurl = "http://gidf.de"
