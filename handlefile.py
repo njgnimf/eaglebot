@@ -72,6 +72,8 @@ def handle(msg, bot, reimport):
                     bot.sendMessage(id, "<====3")
             elif(command == "/love" or command == "/love" + botid):
                 bot.sendMessage(id, "<3")
+                elif(command == "/glasfaserbiszumhaus" or command == "/glasfaserbiszumhaus" + botid):
+                bot.sendMessage(id, "glasfaserbiszumcomputer")
             elif(command == "/omnivoren" or command == "/omnivoren" + botid):
                 bot.sendMessage(id, "Jedes Stueck Fleisch war mal ein Tier!")
             elif(command == "/vegans" or command == "/vegans" + botid or command == "/veganer" or command == "/veganer" + botid):
