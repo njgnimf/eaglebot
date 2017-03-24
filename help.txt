@@ -2,4 +2,4 @@ These are the commands, we actually have:
 
 /help - show this
 /reload - get the newest handling file
-/tutorial /needtutorial - learn hacking
+/tutorial /needtutorial - How to be le member of x Eagle Gang
