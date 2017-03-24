@@ -72,6 +72,8 @@ def handle(msg, bot, reimport):
                     bot.sendMessage(id, "<====3")
             elif(command == "/love" or command == "/love" + botid):
                 bot.sendMessage(id, "<3")
+            elif(command == "/sendnudes" or command == "/sendnudes" + botid):
+                bot.sendMessage(id, open(configfile.nudefile).read())
             elif(command == "/glasfaserbiszumhaus" or command == "/glasfaserbiszumhaus" + botid):
                 bot.sendMessage(id, "glasfaserbiszumcomputer")
             elif(command == "/omnivoren" or command == "/omnivoren" + botid):
