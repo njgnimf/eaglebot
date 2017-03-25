@@ -3,6 +3,8 @@ updates = False #False is more safe, as the update mechanism pulls directly from
 beta = False #GODDAMMIT, has to stay false!
 botid = "@Deadc0deBot" #Change this or help will never work
 
+usenudefile = False
+
 #Files and URLs. Just Comment to disable function
 
 helpfile = "help.txt"
@@ -11,6 +13,7 @@ zitatfile = "zitate.txt"
 tutfile = "tutorial.txt"
 brucefile = "brucelee.txt"
 nudefile = "nude.txt"
+nudefolder = "nudes/"
 sourceurl = "https://github.com/De4dc0de/deadc0debot"
 weburl = "http://deadc0de.bplaced.net"
 gidfurl = "http://gidf.de"
