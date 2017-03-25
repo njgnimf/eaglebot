@@ -4,6 +4,7 @@ def handle(msg, bot, reimport):
     import time
     import configfile
     import random
+    import os
     try:
         botid = configfile.botid
     except:
@@ -73,7 +74,13 @@ def handle(msg, bot, reimport):
             elif(command == "/love" or command == "/love" + botid):
                 bot.sendMessage(id, "<3")
             elif(command == "/sendnudes" or command == "/sendnudes" + botid):
-                bot.sendMessage(id, open(configfile.nudefile).read())
+                try:
+                    if(configfile.usenudefile):
+                        bot.sendMessage(id, open(configfile.nudefile).read())
+                    else:
+                        bot.sendPhoto(id, open(config.nudefolder + random.choice(os.listdir(config.nudefolder))), caption="Dat Nude!")
+                except:
+                    pass
             elif(command == "/glasfaserbiszumhaus" or command == "/glasfaserbiszumhaus" + botid):
                 bot.sendMessage(id, "glasfaserbiszumcomputer")
             elif(command == "/omnivoren" or command == "/omnivoren" + botid):
