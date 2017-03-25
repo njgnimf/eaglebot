@@ -78,7 +78,7 @@ def handle(msg, bot, reimport):
                     if(configfile.usenudefile):
                         bot.sendMessage(id, open(configfile.nudefile).read())
                     else:
-                        bot.sendPhoto(id, open(config.nudefolder + random.choice(os.listdir(config.nudefolder))), caption="Dat Nude!")
+                        bot.sendPhoto(id, open(configfile.nudefolder + random.choice(os.listdir(configfile.nudefolder))), caption="Dat Nude!")
                 except:
                     pass
             elif(command == "/glasfaserbiszumhaus" or command == "/glasfaserbiszumhaus" + botid):
